@@ -18,8 +18,7 @@
  */
 public class QuoteBoard {
     public static void main(String[] args) {
-
-        // Your code here
+System.out.println("Grace Hopper once said\"The most damaging phrase in the\nLanguage is:'We've always done it this way'\"");
 
     }
 }
