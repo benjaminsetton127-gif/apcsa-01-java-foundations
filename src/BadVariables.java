@@ -9,19 +9,19 @@
 public class BadVariables {
     public static void main(String[] args) {
 
-        int 2ndPlace = 5;
+        int secondPlace = 5;    // variable idendifier can't start with a number
 
-        double price = "9.99";
+        double price = 9.99;    // doouble must be a number
 
-        boolean isReady = "true";
+        boolean isReady = true; // boolean values must must be true or false
 
-        char grade = "A";
+        char grade = 'A';   
 
-        int class = 11;
+        int gradeLevel= 11;
 
-        String Name = "Sarah";
+        String name = "Sarah";  // variable start with lower case
 
-        int student score = 95;
+        int studentScore = 95; // all variable need single space
 
         System.out.println("If this runs, you fixed them all.");
     }

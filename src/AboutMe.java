@@ -13,10 +13,13 @@
  */
 public class AboutMe {
     public static void main(String[] args) {
+final int BIRTH_YEAR = 2008; 
+        int favoriteNumber = 3; 
+        double favoriteDecimal = 3.14; 
+        boolean likesJava = true; 
+        char favoriteInitial = 'B'; 
+        String name = "Ben_Setton";
 
-        // Declare your variables here
-
-        // Print them with labels here
-
+        System
     }
 }

@@ -6,31 +6,25 @@ For each value, pick the best Java type and justify it in **one sentence.** The 
 
 | # | Value to store | Type | Why |
 |---|---|---|---|
-| 1 | A student's age | | |
-| 2 | The price of a coffee | | |
-| 3 | Whether a student is enrolled | | |
-| 4 | A student's middle initial | | |
-| 5 | A phone number | | |
-| 6 | The population of New York City | | |
-| 7 | A test score out of 100 | | |
-| 8 | A GPA | | |
-| 9 | Whether it is currently raining | | |
-| 10 | A student ID like `0074512` | | |
+| 1 | A student's age | int | because its a whole number|
+| 2 | The price of a coffee | double| includes cents|
+| 3 | Whether a student is enrolled | boolean| because its true or false|
+| 4 | A student's middle initial | char| because its one character |
+| 5 | A phone number | String| mutiple characters other than numbers|
+| 6 | The population of New York City | int | | people counted as whole number|
+| 7 | A test score out of 100 | double| because its a percent|
+| 8 | A GPA | double| its a decimol|
+| 9 | Whether it is currently raining | boolean | because its true or false |
+| 10 | A student ID like `0074512` | String | not mathimatical |
 
 ### Traps to think carefully about
 
 **#5 — Phone number.** It's made of digits, so `int` feels right. Why is it wrong?
-
-[your answer]
-
+other characters
 **#10 — Student ID.** Same question, plus one more problem `int` would cause.
-
-[your answer]
-
+it has nothing to do with math so its a string
 **#6 — Population of NYC.** About 8.3 million. Does that fit in an `int`? What about the population of Earth?
-
-[your answer]
-
+no because there is a decimol it would be the same
 ---
 
 ## Exercise 10 — Your Project's Data (Homework)
